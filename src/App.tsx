@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import InterestCalculatorView from './InterestCalculatorView';
+import InterestCalculator from './InterestCalculator';
 import { Container } from 'semantic-ui-react';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <Container>
-        <InterestCalculatorView />
+        <InterestCalculator />
       </Container>
     </div>
   );

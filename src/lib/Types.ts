@@ -1,5 +1,5 @@
 export enum CompoundingType {
-  Constant,
+  Constant = 1,
   Daily,
   Monthly,
   Quarterly,
@@ -7,7 +7,7 @@ export enum CompoundingType {
 }
 
 export enum Time {
-  Day,
+  Day = 1,
   ThirtyDays,
   NinetyDays,
   OneYear,

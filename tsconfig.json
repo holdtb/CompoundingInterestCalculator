@@ -17,5 +17,5 @@
     "jsx": "preserve",
     "noImplicitAny": false
   },
-  "include": ["src"]
+  "include": ["src", "src/InterestCalculator.tsx"]
 }
